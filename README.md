@@ -1,7 +1,7 @@
 # Music-artist-recommendation-system    
 项目描述:     
 搭建自己的推荐系统，首先考虑数据来源，以一个简单的音乐网站作为收集数据的工具。    
-https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/web.png
+![Alt text](https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/web.png)
 搜集用户行为信息，某用户点击播放了哪位艺术家的歌曲，及其次数       
 利用Spark  ALS 算法，根据用户播放过很多相同的歌曲来判断他们喜欢同一个艺术家的歌曲，最终给用户推荐适合他的艺术家的作品。     
 文件描述:    
