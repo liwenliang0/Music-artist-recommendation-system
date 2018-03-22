@@ -6,7 +6,7 @@
 利用Spark  ALS 算法，根据用户播放过很多相同的歌曲来判断他们喜欢同一个艺术家的歌曲，最终给用户推荐适合他的艺术家的作品。     
 文件描述:    
 Artist_alias   第一列是有可能的错误艺术家ID，第二列是正确的艺术家ID，用做数据处理   
-https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/artist_alias.png  
+![Alt text](https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/artist_alias.png)  
 artist_data.txt.gz第一列艺术家ID，第二列是艺术家名称    
 https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/artist_data.txt.gz.png  
  user_artist_data.txt   第一列用户ID,第二列艺术家ID，第三列点击播放次数       
