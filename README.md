@@ -2,7 +2,7 @@
 项目描述:     
 搭建自己的推荐系统，首先考虑数据来源，以一个简单的音乐网站作为收集数据的工具。    
 搜集用户行为信息，某用户点击播放了哪位艺术家的歌曲，及其次数       
-利用Spark  ALS 算法，根据用户播放过很多相同的歌曲来判断他们喜欢同一个艺术家的歌曲，最终给用户推荐适合他的艺术家的作品。     
+利用Spark ALS 算法(交替最小二乘法)，通过矩阵分解，最小化反馈代价函数，构建模型。通过超参数调优，K折交叉验证的方式获取最优模型，给用户推荐打分较高的艺术家的相关作品。(使用Scala语言)
 文件描述:    
 Artist_alias   第一列是有可能的错误艺术家ID，第二列是正确的艺术家ID，用做数据处理   
 ![Alt text](https://github.com/liwenliang0/Music-artist-recommendation-system/raw/master/image/artist_alias.png)  
